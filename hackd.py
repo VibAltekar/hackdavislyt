@@ -2,7 +2,6 @@ import sys
 sys.path.insert(0,"/Users/vibhav/Downloads/LeapDeveloperKit_2.3.1+31549_mac/LeapSDK/lib")
 import time
 import os
-import Leap, sys, thread, time
 import serial
 
 ser = serial.Serial(port='/dev/tty.usbmodem1411',baudrate=9600)
